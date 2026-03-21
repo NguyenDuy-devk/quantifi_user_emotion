@@ -1,7 +1,7 @@
 from repo.repositories import SavingRepository, UserRepository, TransactionRepository, SubscriptionRepository
 from business_logic.financial_preference import FinancialPreferenceAnalyzer
 from schemas import transaction as sche_transaction
-from google import genai    
+import google.generativeai as genai 
 from datetime import date
 
 class LLModel:
